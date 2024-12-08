@@ -1,4 +1,4 @@
-#include "Tree.h"
+/*#include "Tree.h"
 #include <iostream>
 using namespace std;
 
@@ -147,4 +147,4 @@ Tree& Tree::operator=(const Tree& obj)
 Tree::~Tree()
 {
     Clear(root);
-}
+}*/

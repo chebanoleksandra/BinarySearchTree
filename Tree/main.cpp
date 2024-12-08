@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	//binary search tree
-	Tree myTree;
+	Tree<int> myTree;
 	myTree.Insert(5);
 	myTree.Insert(1);
 	myTree.Insert(8);
@@ -13,7 +13,7 @@ int main()
 	myTree.Insert(3);
 	myTree.Print();
 
-	Tree secondTree(myTree);
+	Tree<int> secondTree(myTree);
 	secondTree.Print();
 
 	int key;
